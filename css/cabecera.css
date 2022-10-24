@@ -1,0 +1,31 @@
+.cabecera__contenido{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
+.cabecera__titulo{
+    font-size: 2rem;
+}
+
+.cabecera__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecera__menu:hover > .cabecera__lista{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+    
+.cabecera__lista{
+    display: none;
+}
+
+.cabecera__item{
+    padding: .3rem 0;
+}
+

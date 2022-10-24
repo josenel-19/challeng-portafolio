@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/base.css" rel="stylesheet">
+    <link href="./css/cabecera.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sobre-mi.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/formacion.css">
+    <title>Portafolio - Jose Tinoco</title>
+</head>
+<body>
+    <header id="cabecera" class="cabecera">
+        <div id="div_cabecera" class="cabecera__contenido container">
+            <h2 id="h2_cabecera" class="cabecera__titulo">Jose Tinoco</h2>
+            <nav id="nav_cabecera" class="cabecera__menu">Menú<span>🖡</span>
+                <ul id="ul_cabecera" class="cabecera__lista">
+                    <li id="li_cabecera" class="cabecera__item"><a href="#" id="a_cabecera" class="enlace cabecera__enlace">Sobre mi</a></li>
+                    <li id="li_cabecera" class="cabecera__item"><a href="#" id="a_cabecera" class="enlace cabecera__enlace">Skills</a></li>
+                    <li id="li_cabecera" class="cabecera__item"><a href="#" id="a_cabecera" class="enlace cabecera__enlace">Formacion</a></li>
+                    <li id="li_cabecera" class="cabecera__item"><a href="#" id="a_cabecera" class="enlace cabecera__enlace">Proyectos</a></li>
+                    <li id="li_cabecera" class="cabecera__item"><a href="#" id="a_cabecera" class="enlace cabecera__enlace">Experiencia laboral</a></li>
+                    <li id="li_cabecera" class="cabecera__item"><a href="#" id="a_cabecera" class="enlace cabecera__enlace">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="sobre-mi container">
+            <div class="sobre-mi__contenido-principal">
+                <h2 class="sobre-mi__titulo-principal titulos">Sobre mí</h2>
+                <p class="sobre-mi__descripcion-principal">Developer en formación, persona responsable y con muchas ganas de seguir aprendiendo y aportar de ello en alguna vacante laboral.</p>
+            </div>
+            <div class="sobre-mi__contenido-secundario">
+                <h3 class="sobre-mi__titulo-secundario"></h3>
+                <p class="sobre-mi__descripcion-secundario"></p>
+            </div>
+        </section>
+        <section class="skills container">
+            <h3 class="skills__titulo titulos">SKILLS</h3>
+            <div class="skills__contenido">
+                    <div class="skills__item">
+                        <div class="skills__item-imagen skills__item--imagen-html"></div>
+                        <span class="skills__item-nombre">Html</span>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__item-imagen skills__item--imagen-js"></div>
+                        <span class="skills__item-nombre">Javascript</span>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__item-imagen skills__item--imagen-css"></div>
+                        <span class="skills__item-nombre">CSS</span>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__item-imagen skills__item--imagen-sql"></div>
+                        <span class="skills__item-nombre">SQL</span>
+                    </div>
+            </div>
+        </section>
+        <section class="formacion container">
+            <h3 class="formacion__titulo titulos">FORMACIÓN</h3>
+            <div class="formacion__contenido">
+                <div class="formacion__items">
+                    <div class="formacion__items-imagen"></div>
+                    <h5 class="formacion__items-titulo">Analisis y desarrollo de sistemas de información</h5>
+                    <span class="formacion__items-fecha-sede">2013-SENA</span>
+                </div>
+                <div class="formacion__items">
+                    <div class="formacion__items-imagen"></div>
+                    <h5 class="formacion__items-titulo">Formación en frontEnd</h5>
+                    <span class="formacion__items-fecha-sede">En desarrollo-Alura</span>
+                </div>
+            </div>
+        </section>
+        <section class="proyectos container">
+            <h3 class="proyectos__titulo titulos">Proyectos</h3>
+            <div class="proyectos__contenido">
+                <div class="proyectos__contenido-item">
+                    <h2 class="proyectos__item-titulo">Encriptador de texto</h2>
+                    <img src="" alt="" class="proyectos__item-imagen">
+                    <p class="proyecto__item-descripcion">hay q poner una descripción</p>
+                    <a href="" class="proyecto__item-enlace">Repositorio</a>
+                    <a href="" class="proyecto__item-enlace">Link del proyecto</a></div>
+                <div class="proyectos__contenido-item">
+                    <h2 class="proyectos__item-titulo"></h2>
+                    <img src="" alt="" class="proyectos__item-imagen">
+                    <p class="proyecto__item-descripcion">hay q poner una descripción</p>
+                    <a href="#" class="proyecto__item-enlace">Repositorio</a>
+                    <a href="#" class="proyecto__item-enlace">Link del proyecto</a></div>
+            </div>
+        </section>
+        <section class="experiencia-laboral container">
+            <h3 class="experiencia-laboral__titulo titulos">Experiencia laboral</h3>
+            <ul class="experiencia-laboral__lista">
+                <li class="experiencia-laboral__item">Auxiliar de servicios</li>
+                <li class="experiencia-laboral__item">Auxiliar operativo</li>
+                <li class="experiencia-laboral__item">Facturador de servicios en salud</li>
+                <li class="experiencia-laboral__item">Facturador de servicios en salud</li>
+            </ul>
+        </section>
+        <section class="contacto container">
+            <form action="" class="contacto__formulario">
+                <fieldset>
+                    <legend class="contacto__formulario-campo-personal">
+                        <label for="nombre" class="contacto__formulario-label">Nombre</label>
+                        <input name="nombre" type="text" class="contacto__formulario-input">
+                        <label for="correo" class="contacto__formulario-label">Email</label>
+                        <input name="correo" type="email" class="contacto__formulario-input">
+                    </legend>
+                </fieldset>
+                <fieldset>
+                    <legend class="contacto__formulario-campo-mensaje">
+                        <label for="asunto" class="contacto__formulario-label">Asunto</label>
+                        <input name="asunto" type="text" class="contacto__formulario-input">
+                        <label for="mensaje" class="contacto__formulario-label">Mensaje</label>
+                        <textarea name="mensaje" type="text" class="contacto__formulario-input"></textarea>
+                    </legend>
+                </fieldset>
+                <button class="contacto__formulario-boton-enviar">Enviar formulario</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodapie">
+        <span class="rodapie__texto">Desarrollado por Jose Tinoco - 2022</span>
+    </footer>
+</body>
+</html>

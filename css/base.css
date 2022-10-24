@@ -1,0 +1,10 @@
+.container{
+    padding: 1rem 1rem;
+}
+
+.titulos{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: .5rem 0;
+    text-transform: uppercase;
+}
