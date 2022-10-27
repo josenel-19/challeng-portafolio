@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/reset.css" rel="stylesheet">
+    <title>Portafolio - Jose Tinoco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="./css/base.css" rel="stylesheet">
     <link href="./css/cabecera.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/sobre-mi.css">
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/formacion.css">
-    <title>Portafolio - Jose Tinoco</title>
+    <link rel="stylesheet" href="./css/proyectos.css">
+    <link rel="stylesheet" href="./css/experiencia-laboral.css">
+    <link rel="stylesheet" href="./css/formulario-contacto.css">
+
 </head>
 <body>
     <header id="cabecera" class="cabecera">
@@ -64,12 +71,12 @@
             <h3 class="formacion__titulo titulos">FORMACIÓN</h3>
             <div class="formacion__contenido">
                 <div class="formacion__items">
-                    <div class="formacion__items-imagen"></div>
+                    <div class="formacion__items-imagen formacion__items-imagen--sena"></div>
                     <h5 class="formacion__items-titulo">Analisis y desarrollo de sistemas de información</h5>
                     <span class="formacion__items-fecha-sede">2013-SENA</span>
                 </div>
                 <div class="formacion__items">
-                    <div class="formacion__items-imagen"></div>
+                    <div class="formacion__items-imagen formacion__items-imagen--alura"></div>
                     <h5 class="formacion__items-titulo">Formación en frontEnd</h5>
                     <span class="formacion__items-fecha-sede">En desarrollo-Alura</span>
                 </div>
@@ -81,15 +88,25 @@
                 <div class="proyectos__contenido-item">
                     <h2 class="proyectos__item-titulo">Encriptador de texto</h2>
                     <img src="" alt="" class="proyectos__item-imagen">
-                    <p class="proyecto__item-descripcion">hay q poner una descripción</p>
+                    <h5 class="proyectos__item-titulo-descripcion proyectos__item-titulo-descripcion--encriptador">Descripción
+                    </h5>
+                    <p class="proyecto__item-descripcion">
+                        Proyecto propuesto durante la formación en desarrollo web, que encripta y desencripta textos introducidos por el usuario, con la posibilidad de copiar el texto encriptado, validando que solo se escriban letras minúsculas sin caracteres especiales. 
+                        Tecnologías usadas: HTML, CSS, JAVASCRIPT.
+                    </p>
+                
                     <a href="" class="proyecto__item-enlace">Repositorio</a>
-                    <a href="" class="proyecto__item-enlace">Link del proyecto</a></div>
+                    <a href="" class="proyecto__item-enlace">Link del proyecto</a>
+                </div>
                 <div class="proyectos__contenido-item">
-                    <h2 class="proyectos__item-titulo"></h2>
+                    <h2 class="proyectos__item-titulo">Juego del ahorcado</h2>
                     <img src="" alt="" class="proyectos__item-imagen">
-                    <p class="proyecto__item-descripcion">hay q poner una descripción</p>
+                    <h5 class="proyectos__item-titulo-descripcion proyectos__item-titulo-descripcion--encriptador">Descripción
+                    </h5>
+                    <p class="proyecto__item-descripcion">Popular juego del ahorcado, desarrollado con 5 intentos para ganar y 10 palabras establecidas, con la posibilidad de agregar una nueva palabra para que un segundo jugador la adivine. Dibujos y letras desarrollados con canvas, a petición del desafío.</p>
                     <a href="#" class="proyecto__item-enlace">Repositorio</a>
-                    <a href="#" class="proyecto__item-enlace">Link del proyecto</a></div>
+                    <a href="#" class="proyecto__item-enlace">Link del proyecto</a>
+                </div>
             </div>
         </section>
         <section class="experiencia-laboral container">
@@ -98,10 +115,12 @@
                 <li class="experiencia-laboral__item">Auxiliar de servicios</li>
                 <li class="experiencia-laboral__item">Auxiliar operativo</li>
                 <li class="experiencia-laboral__item">Facturador de servicios en salud</li>
-                <li class="experiencia-laboral__item">Facturador de servicios en salud</li>
             </ul>
         </section>
         <section class="contacto container">
+            <p class="contacto__introduccion">
+                Para contactarme, favor llenar el siguiente formulario y me pondré a su disposición los antes posible
+            </p>
             <form action="" class="contacto__formulario">
                 <fieldset>
                     <legend class="contacto__formulario-campo-personal">

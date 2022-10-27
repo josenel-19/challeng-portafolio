@@ -1,0 +1,20 @@
+.contacto{
+    background: var(--gris-bajito);
+}
+
+.contacto__introduccion{
+    padding-bottom: 1rem;
+}
+
+.contacto__formulario-campo-personal, .contacto__formulario-campo-mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__formulario-label{
+    padding: .3rem 0;
+}
+
+.contacto__formulario-boton-enviar{
+    margin-top: 1rem;
+}

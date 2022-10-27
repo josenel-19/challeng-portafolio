@@ -3,10 +3,12 @@
     flex-direction: column;
     align-content: space-between;
     align-items: center;
+    background: var(--gris-bajito);
 }
 
 .cabecera__titulo{
     font-size: 2rem;
+    font-family: var(--font-ralewey);
 }
 
 .cabecera__menu{

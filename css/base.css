@@ -1,3 +1,9 @@
+:root{
+    --font-ralewey: 'Raleway', sans-serif;
+    --gris-bajito: #E5E5E5;
+    --azul-bajito: #EAF2FD;
+}
+
 .container{
     padding: 1rem 1rem;
 }
@@ -7,4 +13,8 @@
     text-align: center;
     padding: .5rem 0;
     text-transform: uppercase;
+}
+
+body{
+    font-family: var(--font-ralewey);
 }
