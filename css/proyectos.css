@@ -13,6 +13,11 @@
     width: 100%;
 }
 
+.proyectos__item-imagen{
+    height: 300px;
+    width: 100%;
+}
+
 .proyectos__item-titulo-descripcion{
     border-top: solid 1px black;
     border-bottom: solid 1px black;
