@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 2rem;
+    justify-content: center;
 }
 
 .proyectos__item-titulo{
@@ -16,6 +17,7 @@
 .proyectos__item-imagen{
     height: 300px;
     width: 100%;
+    max-width: 450px;
 }
 
 .proyectos__item-titulo-descripcion{
@@ -40,4 +42,5 @@
 .proyecto__item-enlace{
     margin: .7rem .5rem 0 .5rem;
     width: calc(50% - 1rem);
+    text-align: center;
 }

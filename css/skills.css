@@ -18,6 +18,7 @@
 .skills__item-imagen{
     background: gray;
     width: 100%;
+    max-width: 160px;
     height: 100px;
     margin-bottom: .5rem;
 }

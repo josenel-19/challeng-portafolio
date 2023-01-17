@@ -5,11 +5,12 @@
 .formacion__contenido{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .formacion__items{
     display: grid;
-    grid-template-rows: 100px auto 2rem;
+    grid-template-rows: auto auto 2rem;
     grid-template-columns: 100%;
     width: calc(50% - 1rem);
     padding: 0 .5rem 1rem .5rem;
@@ -21,8 +22,11 @@
     grid-row: 1/2;
     background: gray;
     width: 100%;
+    max-width: 160px;
     height: 100px;
     margin-bottom: .5rem;
+    justify-self: center;
+
 }
 
 .formacion__items-imagen--sena{
@@ -37,9 +41,11 @@
     grid-column: 1/2;
     grid-row: 2/3;
     margin-bottom: .3rem;
+    text-align: center;
 }
 
 .formacion__items-fecha-sede{
     grid-column: 1/2;
     grid-row: 3/4;
+    text-align: center;
 }

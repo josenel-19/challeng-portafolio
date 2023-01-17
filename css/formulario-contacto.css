@@ -9,10 +9,20 @@
 .contacto__formulario-campo-personal, .contacto__formulario-campo-mensaje{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .contacto__formulario-label{
     padding: .3rem 0;
+}
+
+.contacto__formulario-input{
+    width: 70%;
+    max-width: 300px;
+}
+
+.contacto__formulario--mensaje{
+    height: 3rem;
 }
 
 .contacto__formulario-boton-enviar{
